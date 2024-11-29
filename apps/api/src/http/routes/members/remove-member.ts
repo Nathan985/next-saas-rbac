@@ -28,9 +28,7 @@ export function removeMember(app: FastifyInstance) {
 						},
 					],
 					response: {
-						204: {
-							type: 'null',
-						},
+						204: z.null(),
 					},
 				},
 			},
